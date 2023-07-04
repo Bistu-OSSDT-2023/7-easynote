@@ -19,6 +19,10 @@ easynote ———— 一款简单方便的笔记应用程序，必备笔记神�
 
 * [视频教程](https://www.bilibili.com/video/BV13q4y1k7WB/?spm_id_from=333.337.search-card.all.click)
 
+学习ArkTS语言:
+
+* [华为开发者联盟](https://edu.huaweicloud.com/)
+
 # HISTORY
 * [V1.0版本](https://github.com/Bistu-OSSDT-2023/7-easynote/releases/tag/V1.0)：easynote已支持笔记条目的输入，查看，编写，删除
 
