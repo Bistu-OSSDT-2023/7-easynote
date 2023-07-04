@@ -46,6 +46,7 @@ export default struct NoteList {
           } else {
             Text('编辑')
               .operateTextStyle('#007DFF')
+              .fontSize('18fp')
               .onClick(() => {
                 this.isEditMode = true;
                 selectAllOrCancel.call(this, false);
