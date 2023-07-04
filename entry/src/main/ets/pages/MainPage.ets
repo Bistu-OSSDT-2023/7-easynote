@@ -3,6 +3,8 @@ import NoteList from '../view/NoteList';
 import NoteData from '../common/bean/NoteItemBean';
 import DataModel from '../viewmodel/DataModel';
 import { saveTask } from '../viewmodel/MainPageModel';
+import MemoList from '../view/MemoList';
+
 
 @Entry
 @Component
@@ -11,6 +13,12 @@ struct MainPage {
   @State totalNoteCount: number = 0;
   @State latestUpdateDate: string = '-';
   @Provide @Watch('onProgressChanged') overAllProgressChanged: boolean = false;
+
+  @State fontColor: string = '#182431'
+  @State selectedFontColor: string = '#007DFF'
+  @State currentIndex: number = 0
+  private controller: TabsController = new TabsController()
+
   dialogController: CustomDialogController = new CustomDialogController({
     builder: AddNoteDialog({
       onClickOk: saveTask.bind(this)
@@ -30,8 +38,44 @@ struct MainPage {
 
   build() {
     Column() {
-      this.titleBar()
-      Divider().vertical(false).strokeWidth(5).color(0x2788D9).lineCap(LineCapStyle.Round)
+      Tabs({ barPosition: BarPosition.Start, controller: this.controller }) {
+        TabContent() {
+            this.NoteBar()
+        }.tabBar(this.TabBuilder(0, '笔记'))
+        TabContent() {
+          this.MemoBar()
+        }.tabBar(this.TabBuilder(1, '便签'))
+      }
+      .vertical(false)
+      .barMode(BarMode.Fixed)
+      .barWidth(360)
+      .barHeight(56)
+      .animationDuration(400)
+      .onChange((index: number) => {
+        this.currentIndex = index
+      })
+      .width(360)
+      .height('100%')
+      .backgroundColor('#F1F3F5')
+    }.width('100%')
+  }
+
+  @Builder TabBuilder(index: number, name: string) {
+    Column() {
+      Text(name)
+        .fontColor(this.currentIndex === index ? this.selectedFontColor : this.fontColor)
+        .fontSize(16)
+        .fontWeight(this.currentIndex === index ? 800 : 400)
+        .margin({ top: 17, bottom: 7 })
+      Divider()
+        .strokeWidth(2)
+        .color('#007DFF')
+    }.width('100%')
+  }
+
+  @Builder NoteBar()
+  {
+    Column() {
       NoteList({
         targetData: $targetData,
         onAddClick: () => this.dialogController.open()
@@ -44,17 +88,8 @@ struct MainPage {
     .justifyContent(FlexAlign.Start)
   }
 
-  @Builder
-  titleBar() {
-    Text('笔记')
-      .width('86.7%')
-      .height('32vp')
-      .fontSize('24fp')
-      .fontWeight(700)
-      .textAlign(TextAlign.Start)
-      .margin({
-        top:'12vp',
-        bottom:'12vp'
-      })
+    @Builder MemoBar()
+    {
+      MemoList()
+    }
   }
-}

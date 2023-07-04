@@ -15,6 +15,8 @@ export function selectAllOrCancel(selectStatus: boolean) {
   this.selectArray = newSelectArray;
 }
 
+
+
 export function isSelectAll(): boolean {
   if (this.selectArray.length === 0) {
     return false;

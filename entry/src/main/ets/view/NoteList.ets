@@ -96,7 +96,7 @@ export default struct NoteList {
       }
     }
     .width('93.3%')
-    .height('100%')
+    .height('105%')
     .padding({ top: '16vp' })
   }
 }
