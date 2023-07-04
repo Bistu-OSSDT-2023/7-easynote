@@ -52,3 +52,10 @@ easynote ———— 一款简单方便的笔记应用程序，必备笔记神�
 
 [官方网站](https://easynote07.wordpress.com/2023/07/04/easynote/)
 
+[社区](https://github.com/Bistu-OSSDT-2023/7-easynote/discussions)
+
+# THANK
+
+* 导师
+  李昌骏
+
