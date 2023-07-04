@@ -37,22 +37,25 @@ easynote ———— 一款简单方便的笔记应用程序，必备笔记神�
 
 # PHOTO
 
-![qq群](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/1.png)
-![qq群](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/2.png)
+![示例](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/1.png)
+![示例](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/2.png)
 
-![qq群](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/3.png)
-![qq群](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/4.png)
+![示例](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/3.png)
+![示例](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/4.png)
 
-![qq群](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/5.png)
-![qq群](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/6.png)
+![示例](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/5.png)
+![示例](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/6.png)
 
 # COMMUNITY
-
-![qq群](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/QQ%E7%BE%A4.jpg)
 
 [官方网站](https://easynote07.wordpress.com/2023/07/04/easynote/)
 
 [社区](https://github.com/Bistu-OSSDT-2023/7-easynote/discussions)
+
+交流QQ群：874375842
+
+
+![qq群](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/QQ%E7%BE%A4.jpg)
 
 # THANK
 
