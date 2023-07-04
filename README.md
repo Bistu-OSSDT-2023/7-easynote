@@ -35,9 +35,20 @@ easynote ———— 一款简单方便的笔记应用程序，必备笔记神�
 
 * 任何用户直接或间接使用或传播easynote的任何代码或APK，无论该等使用是否符合其所在国家或地区，或该等使用或传播发生的国家或地区的法律，pppscn和/或代码仓库的任何其他贡献者均不对该等行为产生的任何后果（包括但不限于隐私泄露）负责。
 
+# PHOTO
+
+![qq群](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/QQ%E7%BE%A4.jpg)
+![qq群](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/QQ%E7%BE%A4.jpg)
+
+![qq群](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/QQ%E7%BE%A4.jpg)
+![qq群](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/QQ%E7%BE%A4.jpg)
+
+![qq群](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/QQ%E7%BE%A4.jpg)
+![qq群](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/QQ%E7%BE%A4.jpg)
+
 # COMMUNITY
 
-![qq群]()
+![qq群](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/QQ%E7%BE%A4.jpg)
 
 [官方网站](https://easynote07.wordpress.com/2023/07/04/easynote/)
 
