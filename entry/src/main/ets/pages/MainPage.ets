@@ -64,7 +64,7 @@ struct MainPage {
     Column() {
       Text(name)
         .fontColor(this.currentIndex === index ? this.selectedFontColor : this.fontColor)
-        .fontSize('20fp')
+        .fontSize(16)
         .fontWeight(this.currentIndex === index ? 800 : 400)
         .margin({ top: 17, bottom: 7 })
       Divider()
