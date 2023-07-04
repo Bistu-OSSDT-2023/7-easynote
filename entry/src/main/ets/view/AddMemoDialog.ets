@@ -33,7 +33,7 @@ export default struct AddMemoDialog{
 
 @Extend(Button) function dialogButtonStyle() {
   .fontSize('16fp')
-  .height('32vp')
+  .height('40vp')
   .width('96vp')
   .backgroundColor(Color.White)
   .fontColor('#007DFF')

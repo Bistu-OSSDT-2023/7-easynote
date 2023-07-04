@@ -19,7 +19,7 @@ export default struct MemoList{
   }
 
   build(){
-    Column({space:12}) {
+    Column() {
       Row(){
         Text('待办')
           .fontSize('20fp')
@@ -52,5 +52,5 @@ export default struct MemoList{
   .fontSize('16fp')
   .fontWeight(500)
   .fontColor(color)
-  .backgroundColor('#0D182431')
+  .backgroundColor('#0d2b6cc6')
 }
