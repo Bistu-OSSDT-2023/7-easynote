@@ -14,8 +14,8 @@ struct MainPage {
   @State latestUpdateDate: string = '-';
   @Provide @Watch('onProgressChanged') overAllProgressChanged: boolean = false;
 
-  @State fontColor: string = '#182431'
-  @State selectedFontColor: string = '#007DFF'
+  @State fontColor: string = '#ff13ffff'
+  @State selectedFontColor: string = '#fffc0606'
   @State currentIndex: number = 0
   private controller: TabsController = new TabsController()
 
@@ -56,7 +56,7 @@ struct MainPage {
       })
       .width(360)
       .height('100%')
-      .backgroundColor('#F1F3F5')
+      .backgroundColor('#ffe9e3e3')
     }.width('100%')
   }
 
@@ -69,7 +69,7 @@ struct MainPage {
         .margin({ top: 17, bottom: 7 })
       Divider()
         .strokeWidth(2)
-        .color('#007DFF')
+        .color('#ffd75454')
     }.width('100%')
   }
 
@@ -84,7 +84,7 @@ struct MainPage {
     }
     .width('100%')
     .height('100%')
-    .backgroundColor('#F1F3F5')
+    .backgroundColor('#ffe9e3e3')
     .justifyContent(FlexAlign.Start)
   }
 
