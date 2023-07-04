@@ -6,19 +6,18 @@ easynote ———— 一款简单方便的笔记应用程序，必备笔记神�
 # INSTALL
 基于华为DevEco Studio 3.1的开发环境，以ArkTS作为框架，需安装nodejs和npm包。
 
-# FAQ
-采用UTF-8编码格式
 
-# CREDITS
-[马梓旭](https://github.com/Zanzeu)
+安装地址:
 
-[李睿丰](https://github.com/lrf0408)
+* [DevEco Studio 3.1](https://developer.harmonyos.com/cn/develop/deveco-studio#download)
 
-[李嘉诚](https://github.com/Down200)
+* [nodejs](https://nodejs.org/en)
 
-[刘胤昭](https://github.com/ideer-52)
+* [npm包](https://www.npmjs.com/)
 
-[林俊杰](https://github.com/JackDawson-2887)
+安装教程:
+
+* [视频教程](https://www.bilibili.com/video/BV13q4y1k7WB/?spm_id_from=333.337.search-card.all.click)
 
 # HISTORY
 * [V1.0版本](https://github.com/Bistu-OSSDT-2023/7-easynote/releases/tag/V1.0)：easynote已支持笔记条目的输入，查看，编写，删除
@@ -29,11 +28,6 @@ easynote ———— 一款简单方便的笔记应用程序，必备笔记神�
 
 # LICENSE
 [采用MIT许可证](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/LICENSE)
-
-# README
-* 本仓库发布的easynote项目中涉及的任何代码/APK，仅用于测试和学习研究，禁止用于商业用途，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断。
-
-* 任何用户直接或间接使用或传播easynote的任何代码或APK，无论该等使用是否符合其所在国家或地区，或该等使用或传播发生的国家或地区的法律，pppscn和/或代码仓库的任何其他贡献者均不对该等行为产生的任何后果（包括但不限于隐私泄露）负责。
 
 # PHOTO
 
@@ -46,6 +40,16 @@ easynote ———— 一款简单方便的笔记应用程序，必备笔记神�
 ![示例](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/5.png)
 ![示例](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/6.png)
 
+**如此简单！直接上手！这么简单的UI见面，你没有心动？**
+
+# FAQ
+采用UTF-8编码格式
+
+# README
+* 本仓库发布的easynote项目中涉及的任何代码/APK，仅用于测试和学习研究，禁止用于商业用途，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断。
+
+* 任何用户直接或间接使用或传播easynote的任何代码或APK，无论该等使用是否符合其所在国家或地区，或该等使用或传播发生的国家或地区的法律，pppscn和/或代码仓库的任何其他贡献者均不对该等行为产生的任何后果（包括但不限于隐私泄露）负责。
+
 # COMMUNITY
 
 [官方网站](https://easynote07.wordpress.com/2023/07/04/easynote/)
@@ -57,8 +61,19 @@ easynote ———— 一款简单方便的笔记应用程序，必备笔记神�
 
 ![qq群](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/QQ%E7%BE%A4.jpg)
 
+# CREDITS
+* [马梓旭](https://github.com/Zanzeu)
+
+* [李睿丰](https://github.com/lrf0408)
+
+* [李嘉诚](https://github.com/Down200)
+
+* [刘胤昭](https://github.com/ideer-52)
+
+* [林俊杰](https://github.com/JackDawson-2887)
+
 # THANK
 
-* 导师
+* 学生导师
   李昌骏
 
