@@ -15,7 +15,7 @@ struct MainPage {
   @Provide @Watch('onProgressChanged') overAllProgressChanged: boolean = false;
 
   @State fontColor: string = '#182431'
-  @State selectedFontColor: string = '#007DFF'
+  @State selectedFontColor: string = '#ffff00e5'
   @State currentIndex: number = 0
   private controller: TabsController = new TabsController()
 
@@ -49,7 +49,7 @@ struct MainPage {
       .vertical(false)
       .barMode(BarMode.Fixed)
       .barWidth(360)
-      .barHeight(56)
+      .barHeight(86)
       .animationDuration(400)
       .onChange((index: number) => {
         this.currentIndex = index
@@ -64,12 +64,12 @@ struct MainPage {
     Column() {
       Text(name)
         .fontColor(this.currentIndex === index ? this.selectedFontColor : this.fontColor)
-        .fontSize(16)
-        .fontWeight(this.currentIndex === index ? 800 : 400)
+        .fontSize(20)
+        .fontWeight(this.currentIndex === index ? 1000 : 500)
         .margin({ top: 17, bottom: 7 })
       Divider()
         .strokeWidth(2)
-        .color('#007DFF')
+        .color('#ffff00e5')
     }.width('100%')
   }
 
@@ -84,7 +84,7 @@ struct MainPage {
     }
     .width('100%')
     .height('100%')
-    .backgroundColor('#F1F3F5')
+    .backgroundColor('#fff5f1f5')
     .justifyContent(FlexAlign.Start)
   }
 
