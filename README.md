@@ -21,9 +21,9 @@ easynote ———— 一款简单方便的笔记应用程序，必备笔记神�
 [林俊杰](https://github.com/JackDawson-2887)
 
 # HISTORY
-* V1.0版本：easynote已支持笔记条目的输入，查看，编写，删除
+* [V1.0版本](https://github.com/Bistu-OSSDT-2023/7-easynote/releases/tag/V1.0)：easynote已支持笔记条目的输入，查看，编写，删除
 
-* V2.0版本：easynote新增待办功能(最新！)
+* [V2.0版本](https://github.com/Bistu-OSSDT-2023/7-easynote/releases/tag/V2.0)：easynote新增待办功能 (最新！)
 
 * 未来版本：可以添加图片、音频，支持画图功能，并且版面设计非常自由。
 
