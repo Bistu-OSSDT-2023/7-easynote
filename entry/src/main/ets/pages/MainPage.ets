@@ -3,6 +3,7 @@ import NoteList from '../view/NoteList';
 import NoteData from '../common/bean/NoteItemBean';
 import DataModel from '../viewmodel/DataModel';
 import { saveTask } from '../viewmodel/MainPageModel';
+import MemoList from '../view/MemoList';
 
 
 @Entry
@@ -16,6 +17,7 @@ struct MainPage {
   @State fontColor: string = '#182431'
   @State selectedFontColor: string = '#007DFF'
   @State currentIndex: number = 0
+  private controller: TabsController = new TabsController()
 
   dialogController: CustomDialogController = new CustomDialogController({
     builder: AddNoteDialog({
@@ -36,7 +38,25 @@ struct MainPage {
 
   build() {
     Column() {
-      this.NoteBar()
+      Tabs({ barPosition: BarPosition.Start, controller: this.controller }) {
+        TabContent() {
+            this.NoteBar()
+        }.tabBar(this.TabBuilder(0, '笔记'))
+        TabContent() {
+          this.MemoBar()
+        }.tabBar(this.TabBuilder(1, '便签'))
+      }
+      .vertical(false)
+      .barMode(BarMode.Fixed)
+      .barWidth(360)
+      .barHeight(56)
+      .animationDuration(400)
+      .onChange((index: number) => {
+        this.currentIndex = index
+      })
+      .width(360)
+      .height('100%')
+      .backgroundColor('#F1F3F5')
     }.width('100%')
   }
 
@@ -56,11 +76,6 @@ struct MainPage {
   @Builder NoteBar()
   {
     Column() {
-      Text('笔记')
-        .fontSize('20fp')
-        .fontWeight(700)
-        .fontColor('#182431')
-        .padding({top:'12vp'})
       NoteList({
         targetData: $targetData,
         onAddClick: () => this.dialogController.open()
@@ -72,4 +87,9 @@ struct MainPage {
     .backgroundColor('#F1F3F5')
     .justifyContent(FlexAlign.Start)
   }
+
+    @Builder MemoBar()
+    {
+      MemoList()
+    }
   }
