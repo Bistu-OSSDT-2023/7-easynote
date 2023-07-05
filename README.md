@@ -36,9 +36,6 @@ easynote ———— 一款简单方便的笔记应用程序，必备笔记神�
 
 * 未来版本：可以添加图片、音频，支持画图功能，并且版面设计非常自由。
 
-# LICENSE
-采用[MIT许可证](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/LICENSE)
-
 # PHOTO
 
 ![示例](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/1.png)
@@ -54,6 +51,9 @@ easynote ———— 一款简单方便的笔记应用程序，必备笔记神�
 
 # FAQ
 采用UTF-8编码格式
+
+# LICENSE
+采用[MIT许可证](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/LICENSE)
 
 # README
 * 本仓库发布的easynote项目中涉及的任何代码/APK，仅用于测试和学习研究，禁止用于商业用途，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断。
