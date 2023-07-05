@@ -25,7 +25,9 @@ easynote ———— 一款简单方便的笔记应用程序，必备笔记神�
 
 # CODE STRUCTURE
 
+**代码结构**
 
+![代码结构](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/%E4%BB%A3%E7%A0%81%E7%BB%93%E6%9E%84.png)
 
 # HISTORY
 * [V1.0版本](https://github.com/Bistu-OSSDT-2023/7-easynote/releases/tag/V1.0)：easynote已支持笔记条目的输入，查看，编写，删除
