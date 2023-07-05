@@ -29,13 +29,6 @@ easynote ———— 一款简单方便的笔记应用程序，必备笔记神�
 
 ![代码结构](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/%E4%BB%A3%E7%A0%81%E7%BB%93%E6%9E%84.png)
 
-# HISTORY
-* [V1.0版本](https://github.com/Bistu-OSSDT-2023/7-easynote/releases/tag/V1.0)：easynote已支持笔记条目的输入，查看，编写，删除
-
-* [V2.0版本](https://github.com/Bistu-OSSDT-2023/7-easynote/releases/tag/V2.0)：easynote新增待办功能 (最新！)
-
-* 未来版本：可以添加图片、音频，支持画图功能，并且版面设计非常自由。
-
 # PHOTO
 
 ![示例](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/1.png)
@@ -48,6 +41,13 @@ easynote ———— 一款简单方便的笔记应用程序，必备笔记神�
 ![示例](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/6.png)
 
 **如此简单！直接上手！这么简单的UI见面，你没有心动？**
+
+# HISTORY
+* [V1.0版本](https://github.com/Bistu-OSSDT-2023/7-easynote/releases/tag/V1.0)：easynote已支持笔记条目的输入，查看，编写，删除
+
+* [V2.0版本](https://github.com/Bistu-OSSDT-2023/7-easynote/releases/tag/V2.0)：easynote新增待办功能 (最新！)
+
+* 未来版本：可以添加图片、音频，支持画图功能，并且版面设计非常自由。
 
 # FAQ
 采用UTF-8编码格式
