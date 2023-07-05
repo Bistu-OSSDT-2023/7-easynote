@@ -23,6 +23,10 @@ easynote ———— 一款简单方便的笔记应用程序，必备笔记神�
 
 * [华为开发者联盟](https://edu.huaweicloud.com/)
 
+# CODE STRUCTURE
+
+
+
 # HISTORY
 * [V1.0版本](https://github.com/Bistu-OSSDT-2023/7-easynote/releases/tag/V1.0)：easynote已支持笔记条目的输入，查看，编写，删除
 
