@@ -40,7 +40,7 @@ easynote ———— 一款简单方便的笔记应用程序，必备笔记神�
 ![示例](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/5.png)
 ![示例](https://github.com/Bistu-OSSDT-2023/7-easynote/blob/main/readme/6.png)
 
-**如此简单！直接上手！这么简单的UI见面，你没有心动？**
+**如此简单！直接上手！这么简单的UI界面，你没有心动？**
 
 # HISTORY
 * [V1.0版本](https://github.com/Bistu-OSSDT-2023/7-easynote/releases/tag/V1.0)：easynote已支持笔记条目的输入，查看，编写，删除
